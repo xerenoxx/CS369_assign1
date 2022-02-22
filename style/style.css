@@ -1,4 +1,4 @@
-@media only screen and (min-width:400px){
+@media only screen and (min-width:600px){
     header{
         margin: -10px;
         height: 8vh;
@@ -32,7 +32,11 @@
         margin-right: 10px;
         width: 35px;
     }
+    #menu-icon{
+        display: none;
+    }
 }
+
 @media only screen and (max-width:1200px){
     #headerLeft{
         margin-left: 10px;
@@ -84,5 +88,12 @@
         display: none;
         margin-right: 10px;
         width: 35px;
+    }
+    #menu-icon{
+        display: block;
+        position: fixed;
+        top: 1.5vh;
+        right: 5vw;
+        width: 40px;
     }
 }
