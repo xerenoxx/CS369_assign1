@@ -1,0 +1,59 @@
+@media only screen and (min-width:400px){
+    header{
+        margin: -10px;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        background-color: #5B7D58;
+    }
+    #headerLeft{
+        margin-left: 10px;
+        justify-content:space-evenly;
+        display: flex;
+        align-items: center;    
+        width: 25vw;
+    }
+    .link-page{
+        color: white;
+        font-size: 1em;
+
+    }
+    #seperator-head{
+        width: 65vw;
+    }
+    #user-head{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #cart-image{
+        width: 35px
+    }
+    #user-image{
+        margin-right: 10px;
+        width: 35px
+    }
+}
+@media only screen and (max-width:1200px){
+    #headerLeft{
+        margin-left: 10px;
+        justify-content:space-evenly;
+        display: flex;
+        align-items: center;    
+        width: 50vw;
+    }
+    #seperator-head{
+        width: 50vw;
+    }
+}
+@media only screen and (max-width:600px){
+        #headerLeft{
+            margin-left: 10px;
+            justify-content:space-evenly;
+            display: flex;
+            align-items: center;    
+            width: 60vw;
+        }
+        #seperator-head{
+            width: 35vw;
+        }
+}
