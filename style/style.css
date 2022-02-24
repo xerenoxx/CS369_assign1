@@ -1,5 +1,30 @@
+*{
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+}
+.product-container{
+    display: block;
+    margin-left: 50px;
+    align-items: center;
+    width: 250px;
+    height: 400px;
+}
+.product-pic{
+    margin-top: -20px;
+    width: 250px;
+    height: 300px;
+}
+.product-name{
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    width: 250px;
+    font-size: 1.3em;
+}
 @media only screen and (min-width:600px){
     header{
+        font-weight: bold;
+        font-family: 'Kanit', sans-serif;
         margin: -10px;
         height: 8vh;
         display: flex;
@@ -35,9 +60,30 @@
     #menu-icon{
         display: none;
     }
+    #shop-title{
+        font-weight: bold;
+        font-family: 'Kanit', sans-serif;
+        margin-top: 15px;
+        width: 100%;
+        text-align: center;
+        height: 15vh;
+        font-size: 2em;
+    }
+    #product-list{
+        margin-top: -40px;
+        column-count: 4;
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        margin-bottom: 20px;
+        display:inline-block;
+        width: 100%;
+    }
+    #cart-container{
+        display: none;
+    }
 }
 
-@media only screen and (max-width:1200px){
+@media only screen and (max-width:1200px)and (min-width:601px){
     #headerLeft{
         margin-left: 10px;
         justify-content:space-evenly;
@@ -46,7 +92,7 @@
         width: 50vw;
     }
     #seperator-head{
-        width: 50vw;
+        width: 40vw;
     }
 }
 @media only screen and (max-width:600px){
@@ -60,8 +106,12 @@
         #seperator-head{
             width: 35vw;
         }
+        #headerRight{
+            margin-left: -10vw;
+        }
 }
 @media only screen and (max-width:599px){
+    
     header{
         margin: -10px;
         height: 8vh;
@@ -69,8 +119,13 @@
         align-items: center;
         background-color: #5B7D58;
     }
+    
     #headerLeft{
         display: none;
+        
+    }
+    .link-page{
+        border-bottom: solid 1px #5B7D58;
     }
     #seperator-head{
         display: none;
@@ -91,9 +146,38 @@
     }
     #menu-icon{
         display: block;
-        position: fixed;
+        position: absolute;
         top: 1.5vh;
         right: 5vw;
         width: 40px;
+    }
+    #shop-title{
+        color: #FFFFFF;
+        position: absolute;
+        text-align: center;
+        left: 80px;
+        top: 20px;
+        font-size: 1.3em;
+    }
+    #product-list{
+        position: absolute;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        display:inline-block;
+        width: 100%;
+    }
+    .product-container{
+        display: block;
+        margin-left: 60px;
+        align-items: center;
+        width: 250px;
+        height: 400px;
+    }
+    #cart-container{
+        position: fixed;
+        bottom: 4vh;
+        right: 7vw;
+        width: 50px;
+        background-color: #DDD6C5;
     }
 }
