@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product List</title>
 </head>
+<style>@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');</style>
 <link rel="stylesheet" href="../style/style.css">
 <body>
     <header>
@@ -19,7 +20,82 @@
         <div id="user-head">
             <img src="../Picture/user.png" alt="user-pic" id="user-image">
             <img src="../Picture/shopping-cart.png" alt="cart-pic" id="cart-image">
+            <span>
+                <img src="../Picture/menu.png" alt="menu" id="menu-icon" onclick="myFunction()">
+            </span>
         </div>
     </header>
+    <div id="shop-title">
+        สินค้าใหม่ประจำสัปดาห์
+    </div>
+    <div id="product-list">
+        <div class="product-container">
+            <img src="../Picture/319978.jpg" alt="blue-dotted" class="product-pic">
+            <div class="product-name">
+                <p>Blue dotted T-Shirt</p>
+            </div>
+        </div>
+        <div class="product-container">
+            <img src="../Picture/the-north-face-exploration-convertible-pant-walking-trousers.jpg" alt="pant1" class="product-pic">
+            <div class="product-name">
+                <p>THE NORTH FACE - Exploration Convertible Pant</p>
+            </div>
+        </div>
+        <div class="product-container">
+            <img src="../Picture/325040.jpg" alt="bb-tshirt" class="product-pic">
+            <div class="product-name">
+                <p>Barbie T-Shirt</p>
+            </div>
+        </div>
+        <div class="product-container">
+            <img src="../Picture/bella-earrings--round--small--white--rhodium-plated-swarovski-5085608.jfif" alt="bb-tshirt" class="product-pic">
+            <div class="product-name">
+                <p>Bella earrings</p>
+            </div>
+        </div>
+        <div class="product-container">
+            <img src="../Picture/Superstar_Shoes_White_FV3284_01_standard.jpg" alt="shoe1" class="product-pic">
+            <div class="product-name">
+                <p>Superstar Shoes White</p>
+            </div>
+        </div>
+        <div class="product-container">
+            <img src="../Picture/7-444-gry-org-bruton-orange-original-imagfp7fzz5ftzfc.jpeg" alt="shoe2" class="product-pic">
+            <div class="product-name">
+                <p>Modern Trendy Sneakers Shoes Sneakers For Men</p>
+            </div>
+        </div>
+        <div class="product-container">
+            <img src="../Picture/swarovski-infinity-necklace--infinity-and-heart--white--mixed-metal-finish-swarovski-5518865.jfif" alt="jew1" class="product-pic">
+            <div class="product-name">
+                <p>Swarovski Infinity Necklace</p>
+            </div>
+        </div>  
+        <div class="product-container">
+            <img src="../Picture/miv8003-0247-pantalon-coupe-vent-homme-noir-needles-shield-pant-m_2.jpg" alt="bb-tshirt" class="product-pic">
+            <div class="product-name">
+                <p>Men's wind resistant pant - black</p>
+            </div>
+        </div>
+    </div>
+<script>
+    function myFunction() {
+    var x = document.getElementById("headerLeft");
+    var y = document.getElementById("product-list");
+    var z = document.getElementById("seperator-head");
+    z.style.display = "none";
+        if (x.style.display === "none") {
+            x.style.display = "block";
+            x.style.marginLeft = "10px";
+            x.style.marginTop=  '25vh';
+            x.style.alignItems= 'center';
+            x.style.fontSize= '1.3em';
+            y.style.marginTop = '25vh'
+        } else {
+            x.style.display = "none";
+            y.style.marginTop = '50px'
+        }
+    }
+</script>
 </body>
 </html>
