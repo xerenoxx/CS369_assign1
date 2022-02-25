@@ -1,203 +1,79 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-body {
-  font-family: "Stoke", sans-serif;
-}
-.page-container {
-  display: grid;
-  grid-template-rows: repeat(4, 1fr);
-  grid-gap: 10px;
-  flex: 3;
-  max-width: 250px;
-}
-.page-container > div {
-  height: 210px;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: right;
-  justify-content: center;
-  text-align: center;
-  border-radius: 20%;
-}
-.img {
-  max-width: 250px;
-  max-height: 400px;
-}
-.mainbox {
-  display: flex;
-
-}
-.cloth-img {
-  background: url("./Picture/shirt.jpg");
-  opacity: 0.5;
-  flex: 3;
-}
-.pants-img {
-  background: url("./Picture/pant.jpg");
-  opacity: 0.5;
-  flex: 3;
-}
-.access-img {
-  background: url("./Picture/acces.jpg");
-  opacity: 0.5;
-  flex: 3;
-}
-.shoes-img {
-  background: url("./Picture/shoes.jpg");
-  opacity: 0.5;
-  flex: 3;
-}
-.cloth-img:hover {
-  opacity: 1;
-}
-.pants-img:hover {
-  opacity: 1;
-}
-.access-img:hover {
-  opacity: 1;
-}
-.shoes-img:hover {
-  opacity: 1;
-}
-h2 {
-  font-size: 40px;
-  font-family: "Sofia Sans", sans-serif;
-  font-weight: 100px;
-}
-
-.flex-container img {
-  width: 100%;
-}
-.flex-container > div {
-  background-color: #ddd6c5;
-  color: black;
-  width: 400px;
-  height: 50px;
-  margin-top: 500px;
-  margin-left: 500px;
-  text-align: center;
-  line-height: 50px;
-  font-size: 30px;
-  font-weight: 100px;
-}
-.product-container {
-  display: block;
-  margin-left: 50px;
-  align-items: center;
-  width: 250px;
-  height: 400px;
-}
-.product-pic {
-  margin-top: -20px;
-  width: 250px;
-  height: 300px;
-}
-.product-name {
-  position: relative;
-  bottom: 20px;
-  text-align: center;
-  width: 250px;
-  font-size: 1.3em;
-}
-#shop-here {
-  float: left;
-  display: grid;
-  grid-template-columns: min-content 1fr;
-}
-@media only screen and (min-width: 600px) {
-  body {
-    font-family: "Stoke", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
-  header {
+  *{
     font-weight: bold;
-    font-family: "Kanit", sans-serif;
-    height: 50px;
+    font-family: 'Kanit', sans-serif;   
+    }
+  .page-container {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 10px;
+    flex: 3;
+    max-width: 250px;
+  }
+  .page-container > div {
+    height: 210px;
+    background-size: cover;
     display: flex;
-    align-items: center;
-    background-color: #5b7d58;
-  }
-  #headerLeft {
-    margin-left: 10px;
-    justify-content: space-evenly;
-    display: flex;
-    align-items: center;
-    width: 25vw;
-  }
-  .link-page {
-    color: white;
-    font-size: 1em;
-  }
-  #seperator-head {
-    width: 65vw;
-  }
-  #user-head {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  #cart-image {
-    width: 35px;
-  }
-  #user-image {
-    margin-right: 10px;
-    width: 35px;
-  }
-  #menu-icon {
-    display: none;
-  }
-  #shop-title {
-    font-weight: bold;
-    font-family: "Kanit", sans-serif;
-    margin-top: 15px;
-    width: 100%;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
     text-align: center;
-    height: 15vh;
-    font-size: 2em;
+    border-radius: 20%;
   }
-  #product-list {
-    margin-top: -40px;
-    column-count: 4;
-    -moz-column-count: 4;
-    -webkit-column-count: 4;
-    margin-bottom: 20px;
-    display: inline-block;
-    width: 100%;
-  }
-  #cart-container {
-    display: none;
-  }
-  #center-logo {
-    font-family: "Stoke";
-    margin-top: 15px;
-    width: 100%;
-    text-align: center;
-    height: 15vh;
-    font-size: 2em;
-  }
-  .text-block {
-    position: absolute;
-    background-color: #42361a;
-    color: #ffffff;
-    padding-left: 60px;
-    padding-right: 50px;
-    border-radius: 70px;
+  .img {
+    max-width: 250px;
+    max-height: 400px;
   }
   .mainbox {
     display: flex;
+  
   }
-  .flex-container {
-    display: flex;
-    flex: 1;
+  .cloth-img {
+    background: url("./Picture/shirt.jpg");
+    opacity: 0.5;
+    flex: 3;
+  }
+  .pants-img {
+    background: url("./Picture/pant.jpg");
+    opacity: 0.5;
+    flex: 3;
+  }
+  .access-img {
+    background: url("./Picture/acces.jpg");
+    opacity: 0.5;
+    flex: 3;
+  }
+  .shoes-img {
+    background: url("./Picture/shoes.jpg");
+    opacity: 0.5;
+    flex: 3;
+  }
+  .cloth-img:hover {
+    opacity: 1;
+  }
+  .pants-img:hover {
+    opacity: 1;
+  }
+  .access-img:hover {
+    opacity: 1;
+  }
+  .shoes-img:hover {
+    opacity: 1;
+  }
+
+  
+  .flex-container img {
+    width: 100%;
   }
   .flex-container > div {
     background-color: #ddd6c5;
     color: black;
     width: 400px;
     height: 50px;
-
     margin-top: 500px;
     margin-left: 500px;
     text-align: center;
@@ -205,170 +81,291 @@ h2 {
     font-size: 30px;
     font-weight: 100px;
   }
-  .page-container {
-    display: grid;
-    grid-template-rows: repeat(4, 1fr);
-    grid-gap: 10px;
-    flex: 3;
-  }
-  .page-container > div {
-    height: 210px;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: right;
-    justify-content: center;
-    text-align: center;
-    border-radius: 20%;
-  }
-}
-
-@media only screen and (max-width: 1200px) and (min-width: 601px) {
-  #headerLeft {
-    margin-left: 10px;
-    justify-content: space-evenly;
-    display: flex;
-    align-items: center;
-    width: 50vw;
-  }
-  #seperator-head {
-    width: 40vw;
-  }
-}
-@media only screen and (max-width: 600px) {
-  #headerLeft {
-    margin-left: 10px;
-    justify-content: space-evenly;
-    display: flex;
-    align-items: center;
-    width: 60vw;
-  }
-  #seperator-head {
-    width: 35vw;
-  }
-  #headerRight {
-    margin-left: -10vw;
-  }
-}
-@media only screen and (max-width: 599px) {
-  header {
-    height: 50px;
-    display: flex;
-    align-items: center;
-    background-color: #5b7d58;
-  }
-  .mainbox {
-    display: block;
-  }
-
-  #headerLeft {
-    display: none;
-  }
-  .link-page {
-    border-bottom: solid 1px #5b7d58;
-  }
-  #seperator-head {
-    display: none;
-  }
-  #user-head {
-    justify-content: space-evenly;
-  }
-  #cart-image {
-    position: fixed;
-    bottom: 4vh;
-    right: 7vw;
-    width: 50px;
-  }
-  #user-image {
-    display: none;
-    margin-right: 10px;
-    width: 35px;
-  }
-  #menu-icon {
-    display: block;
-    position: absolute;
-    top: 1.5vh;
-    right: 5vw;
-    width: 40px;
-  }
-  #shop-title {
-    color: #ffffff;
-    position: absolute;
-    text-align: center;
-    left: 80px;
-    top: 20px;
-    font-size: 1.3em;
-  }
-  #product-list {
-    position: absolute;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    display: inline-block;
-    width: 100%;
-  }
   .product-container {
     display: block;
-    margin-left: 60px;
+    margin-left: 50px;
     align-items: center;
     width: 250px;
     height: 400px;
   }
-  #cart-container {
-    position: fixed;
-    bottom: 4vh;
-    right: 7vw;
-    width: 50px;
-    background-color: #ddd6c5;
-  }
-  #center-logo {
-    color: black;
-    position: absolute;
-    font-family: "Stoke";
-    top: 15px;
-    width: 100%;
-    text-align: left;
-    height: 15vh;
-    font-size: 2em;
-  }
-  .text-block {
-    position: absolute;
-    background-color: #5b7d58;
-    color: #ffffff;
-    padding-left: 60px;
-    padding-right: 50px;
-    border-radius: 70px;
-    align-items: center;
-    width: 50px;
-    height: 290px;
-  }
-
-  .page-container {
-    display: grid;
-    grid-template-rows: repeat(4, 1fr);
-    grid-gap: 10px;
-    flex: 3;
-    align-items: center;
+  .product-pic {
+    margin-top: -20px;
     width: 250px;
-    height: 400px;
+    height: 300px;
   }
-  .page-container > div {
-    height: 210px;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: right;
-    justify-content: center;
+  .product-name {
+    position: relative;
+    bottom: 20px;
     text-align: center;
-    border-radius: 20%;
+    width: 250px;
+    font-size: 1.3em;
   }
-  .mainbox {
-    display: block;
+  #shop-here {
+    float: left;
+    display: grid;
+    grid-template-columns: min-content 1fr;
   }
-
-  .flex-container {
-    display: block; 
+  @media only screen and (min-width: 600px) {
+    body {
+      font-family: "Stoke", sans-serif;
+    }
+    header {
+      font-weight: bold;
+      font-family: "Kanit", sans-serif;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      background-color: #5b7d58;
+    }
+    #headerLeft {
+      margin-left: 10px;
+      justify-content: space-evenly;
+      display: flex;
+      align-items: center;
+      width: 25vw;
+    }
+    .link-page {
+      color: white;
+      font-size: 1em;
+    }
+    #seperator-head {
+      width: 65vw;
+    }
+    #user-head {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    #cart-image {
+      width: 35px;
+    }
+    #user-image {
+      margin-right: 10px;
+      width: 35px;
+    }
+    #menu-icon {
+      display: none;
+    }
+    #shop-title {
+      font-weight: bold;
+      font-family: "Kanit", sans-serif;
+      margin-top: 15px;
+      width: 100%;
+      text-align: center;
+      height: 15vh;
+      font-size: 2em;
+    }
+    #product-list {
+      margin-top: -40px;
+      column-count: 4;
+      -moz-column-count: 4;
+      -webkit-column-count: 4;
+      margin-bottom: 20px;
+      display: inline-block;
+      width: 100%;
+    }
+    #cart-container {
+      display: none;
+    }
+    #center-logo {
+      font-family: "Stoke";
+      margin-top: 15px;
+      width: 100%;
+      text-align: center;
+      height: 15vh;
+      font-size: 2em;
+    }
+    .text-block {
+      position: absolute;
+      background-color: #42361a;
+      color: #ffffff;
+      padding-left: 60px;
+      padding-right: 50px;
+      border-radius: 70px;
+    }
+    .mainbox {
+      display: flex;
+    }
+    .flex-container {
+      display: flex;
+      flex: 1;
+    }
+    .flex-container > div {
+      background-color: #ddd6c5;
+      color: black;
+      width: 400px;
+      height: 50px;
+  
+      margin-top: 500px;
+      margin-left: 500px;
+      text-align: center;
+      line-height: 50px;
+      font-size: 30px;
+      font-weight: 100px;
+    }
+    .page-container {
+      display: grid;
+      grid-template-rows: repeat(4, 1fr);
+      grid-gap: 10px;
+      flex: 3;
+    }
+    .page-container > div {
+      height: 210px;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: right;
+      justify-content: center;
+      text-align: center;
+      border-radius: 20%;
+    }
   }
-  .flex-container img {
-    width: 100%;
+  
+  @media only screen and (max-width: 1200px) and (min-width: 601px) {
+    #headerLeft {
+      margin-left: 10px;
+      justify-content: space-evenly;
+      display: flex;
+      align-items: center;
+      width: 50vw;
+    }
+    #seperator-head {
+      width: 40vw;
+    }
   }
-}
+  @media only screen and (max-width: 600px) {
+    #headerLeft {
+      margin-left: 10px;
+      justify-content: space-evenly;
+      display: flex;
+      align-items: center;
+      width: 60vw;
+    }
+    #seperator-head {
+      width: 35vw;
+    }
+    #headerRight {
+      margin-left: -10vw;
+    }
+  }
+  @media only screen and (max-width: 599px) {
+    header {
+      height: 50px;
+      display: flex;
+      align-items: center;
+      background-color: #5b7d58;
+    }
+    .mainbox {
+      display: block;
+    }
+  
+    #headerLeft {
+      display: none;
+    }
+    .link-page {
+      border-bottom: solid 1px #5b7d58;
+    }
+    #seperator-head {
+      display: none;
+    }
+    #user-head {
+      justify-content: space-evenly;
+    }
+    #cart-image {
+      position: fixed;
+      bottom: 4vh;
+      right: 7vw;
+      width: 50px;
+    }
+    #user-image {
+      display: none;
+      margin-right: 10px;
+      width: 35px;
+    }
+    #menu-icon {
+      display: block;
+      position: absolute;
+      top: 1.5vh;
+      right: 5vw;
+      width: 40px;
+    }
+    #shop-title {
+      color: #ffffff;
+      position: absolute;
+      text-align: center;
+      left: 80px;
+      top: 20px;
+      font-size: 1.3em;
+    }
+    #product-list {
+      position: absolute;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      display: inline-block;
+      width: 100%;
+    }
+    .product-container {
+      display: block;
+      margin-left: 60px;
+      align-items: center;
+      width: 250px;
+      height: 400px;
+    }
+    #cart-container {
+      position: fixed;
+      bottom: 4vh;
+      right: 7vw;
+      width: 50px;
+      background-color: #ddd6c5;
+    }
+    #center-logo {
+      color: black;
+      position: absolute;
+      font-family: "Stoke", sans-serif;
+      top: 15px;
+      width: 100%;
+      text-align: left;
+      height: 15vh;
+      font-size: 2em;
+    }
+    .text-block {
+      position: absolute;
+      background-color: #5b7d58;
+      color: #ffffff;
+      padding-left: 60px;
+      padding-right: 50px;
+      border-radius: 70px;
+      align-items: center;
+      width: 50px;
+      height: 290px;
+    }
+  
+    .page-container {
+      display: grid;
+      grid-template-rows: repeat(4, 1fr);
+      grid-gap: 10px;
+      flex: 3;
+      align-items: center;
+      width: 250px;
+      height: 400px;
+    }
+    .page-container > div {
+      height: 210px;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: right;
+      justify-content: center;
+      text-align: center;
+      border-radius: 20%;
+    }
+    .mainbox {
+      display: block;
+    }
+  
+    .flex-container {
+      display: block; 
+    }
+    .flex-container img {
+      width: 100%;
+    }
+  }
