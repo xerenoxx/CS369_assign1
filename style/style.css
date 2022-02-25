@@ -33,22 +33,22 @@
   
   }
   .cloth-img {
-    background: url("./Picture/shirt.jpg");
+    background: url("../Picture/shirt.jpg");
     opacity: 0.5;
     flex: 3;
   }
   .pants-img {
-    background: url("./Picture/pant.jpg");
+    background: url("../Picture/pant.jpg");
     opacity: 0.5;
     flex: 3;
   }
   .access-img {
-    background: url("./Picture/acces.jpg");
+    background: url("../Picture/acces.jpg");
     opacity: 0.5;
     flex: 3;
   }
   .shoes-img {
-    background: url("./Picture/shoes.jpg");
+    background: url("../Picture/shoes.jpg");
     opacity: 0.5;
     flex: 3;
   }
